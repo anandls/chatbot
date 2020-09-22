@@ -1,0 +1,42 @@
+{
+  "name": "chatbot_server",
+  "version": "1.0.0",
+  "description": "node chatbot server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anand",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-object-assign": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "dump-die": "^1.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "glob": "^7.1.6",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "validator": "^11.1.0",
+    "var_dump": "^1.0.5",
+    "winston": "^3.3.3"
+  }
+}

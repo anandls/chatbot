@@ -1,0 +1,82 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "chatbot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "react",
+    "socketio"
+  ],
+  "author": "anand",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "circular-dependency-plugin": "^4.4.0",
+    "compression-webpack-plugin": "^6.0.2",
+    "copy-webpack-plugin": "^6.1.1",
+    "css-loader": "^1.0.0",
+    "dotenv": "^8.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.23.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "url-loader": "^0.6.2",
+    "webpack": "^4.19.1",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv-webpack": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-icons": "^3.11.0",
+    "react-images-upload": "^1.2.6",
+    "react-lazyload": "^2.6.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-select": "^3.1.0",
+    "react-transition-group": "^4.1.1",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "regenerator-runtime": "^0.13.5",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5",
+    "uuid": "^3.3.2",
+    "formik": "^2.1.4",
+    "framer-motion": "^1.9.0",
+    "yup": "^0.28.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
